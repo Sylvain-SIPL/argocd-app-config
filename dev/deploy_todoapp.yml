@@ -29,7 +29,6 @@ metadata:
   name: todoapp-service
 spec:
   type: LoadBalancer
-  #loadBalancerIP: 135.236.123.213
   selector:
     app: django-todoapp
   ports:
