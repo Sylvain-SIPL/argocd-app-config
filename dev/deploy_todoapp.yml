@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: django-todoapp
-          image: sylvain5929/django_todoapp:latest
+          image: sylvain5929/mytodoapp:final
           ports:
             - containerPort: 8000
           env:
